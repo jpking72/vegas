@@ -1,99 +1,3 @@
-@font-face {
-    font-family: 'futura__condensed';
-    src: url('../fonts/futura_condensed-webfont.eot');
-    src: url('../fonts/futura_condensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/futura_condensed-webfont.woff') format('woff'),
-         url('../fonts/futura_condensed-webfont.ttf') format('truetype'),
-         url('../fonts/futura_condensed-webfont.svg#futura__condensed') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'futuracondensed_medium';
-    src: url('../fonts/futura_condensed_medium-webfont.eot');
-    src: url('../fonts/futura_condensed_medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/futura_condensed_medium-webfont.woff') format('woff'),
-         url('../fonts/futura_condensed_medium-webfont.ttf') format('truetype'),
-         url('../fonts/futura_condensed_medium-webfont.svg#futuracondensed_medium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'futura_condensed_extra_boldRg';
-    src: url('../fonts/futura_condensed_extra_bold_regular-webfont.eot');
-    src: url('../fonts/futura_condensed_extra_bold_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/futura_condensed_extra_bold_regular-webfont.woff') format('woff'),
-         url('../fonts/futura_condensed_extra_bold_regular-webfont.ttf') format('truetype'),
-         url('../fonts/futura_condensed_extra_bold_regular-webfont.svg#futura_condensed_extra_boldRg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'futura_extra_blk_cond';
-    src: url('../fonts/futura_extra_blk_cond-webfont.eot');
-    src: url('../fonts/futura_extra_blk_cond-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/futura_extra_blk_cond-webfont.woff') format('woff'),
-         url('../fonts/futura_extra_blk_cond-webfont.ttf') format('truetype'),
-         url('../fonts/futura_extra_blk_cond-webfont.svg#futura_xblkcn_btextra_black') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'cartogothic_stdregular';
-    src: url('../fonts/CartoGothicStd-Book-webfont.eot');
-    src: url('../fonts/CartoGothicStd-Book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/CartoGothicStd-Book-webfont.woff') format('woff'),
-         url('../fonts/CartoGothicStd-Book-webfont.ttf') format('truetype'),
-         url('../fonts/CartoGothicStd-Book-webfont.svg#cartogothic_stdregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'cartogothic_stdbold';
-    src: url('../fonts/CartoGothicStd-Bold-webfont.eot');
-    src: url('../fonts/CartoGothicStd-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/CartoGothicStd-Bold-webfont.woff') format('woff'),
-         url('../fonts/CartoGothicStd-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/CartoGothicStd-Bold-webfont.svg#cartogothic_stdbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'cartogothic_stditalic';
-    src: url('../fonts/CartoGothicStd-Italic-webfont.eot');
-    src: url('../fonts/CartoGothicStd-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/CartoGothicStd-Italic-webfont.woff') format('woff'),
-         url('../fonts/CartoGothicStd-Italic-webfont.ttf') format('truetype'),
-         url('../fonts/CartoGothicStd-Italic-webfont.svg#cartogothic_stditalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'cartogothic_stdbold_italic';
-    src: url('../fonts/CartoGothicStd-BoldItalic-webfont.eot');
-    src: url('../fonts/CartoGothicStd-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/CartoGothicStd-BoldItalic-webfont.woff') format('woff'),
-         url('../fonts/CartoGothicStd-BoldItalic-webfont.ttf') format('truetype'),
-         url('../fonts/CartoGothicStd-BoldItalic-webfont.svg#cartogothic_stdbold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 body {
   width:100%;
   font-family: "futura-pt",sans-serif;
@@ -192,10 +96,10 @@ header {
   height:100%;
   top:0;
   left:0;
-  background-color: rgba(0,0,0,0.4)
+  background-color: rgba(0,0,0,0.2)
 }
 
-.learnButton {
+.learnButton, .learnButton a {
   width:265px;
   height:58px;
   background-color: #FFFFFF;
@@ -205,6 +109,7 @@ header {
   text-align: center;
   padding-top:7px;
   cursor:pointer;
+  text-decoration: none
 }
 
 .downArrow {
@@ -237,4 +142,182 @@ header {
   color:#FEFBFB;
   line-height: 100%;
   z-index: 10
+}
+
+ul.subscribeList {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  width:1000px;
+  margin:0 auto;
+}
+
+ul.subscribeList li {
+  float:left;
+  width:210px;
+  margin-right:40px;
+  height:270px;
+}
+
+ul.subscribeList li.noright {
+  margin-right:0;
+}
+
+ul.subscribeList li .subText {
+  color:#FDFCFC;
+  background-color: #ed596a;
+  height:152px;
+  padding:65px 0 0 0;
+  font-size:28px;
+  text-align: center;
+  font-weight: 700;
+}
+
+ul.subscribeList li .subPrice {
+  background-color: #e72238;
+  height:48px;
+  padding:15px 0 0 0;
+  font-size:24px;
+  text-align: center;
+  font-weight: 700;
+}
+
+ul.subscribeList a {
+  color:#FDFCFC;
+  text-decoration: none;
+}
+
+ul.subscribeList li:hover .subText {
+  background-color: #e72238;
+}
+
+.learnMore {
+  width:1000px;
+  margin:120 auto 0 auto;
+}
+
+.learnMore h3 {
+  font-size:48px;
+  margin:5px 0;
+  color:#676767;
+}
+
+.learnMore ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+.learnMore ul li {
+  float:left;
+  width:210px;
+  margin-right:40px;
+  background-color: #ed596a;
+  height:152px;
+  padding:65px 0 0 0;
+  font-size:28px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.learnMore a {
+  color:#FDFCFC;
+  text-decoration: none;
+}
+
+.learnMore li:hover {
+  background-color: #e72238;
+}
+
+.learnMore li.doubleDiv {
+  padding:70px 36px 0 36px;
+  width:388px;
+  height:147px;
+}
+
+.largeContact {
+  line-height:100%;
+  font-size:55px;
+}
+
+.football2 {
+  width:100%;
+  margin-top:120px;
+  position:relative;
+}
+
+.termsText {
+  font-size:16px;
+}
+
+footer {
+  width:100%;
+  background-color: #7D7D7D;
+  color:#FEFEFE;
+}
+
+footer h3 {
+  color:#FEFEFE;
+}
+
+.leftSplit {
+  width: 50%;
+  float:left;
+  background-color:#4C66A4;
+}
+
+.facebookDiv {
+  float:right;
+  margin:50px 25% 50px 0;
+}
+
+.rightSplit {
+  width: 50%;
+  float:left;
+  background-color: #00ACEE;
+}
+
+.twitterDiv {
+  float:left;
+  margin:50px 0 50px 25%;
+}
+
+footer .footerBottom {
+  width:1000px;
+  margin:0 auto;
+}
+
+footer .leftFooter {
+  margin-top:50px;
+  margin-left:75px;
+  width:425px;
+  float:left;
+}
+
+footer .rightFooter {
+  margin-top: 50px;
+  margin-left:75px;
+  width:425px;
+  float:left;
+  color:#FEFEFE;
+  font-size:18px;
+  font-weight:bold;
+}
+
+.rightFooter a {
+  color:#FDFEFE;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.rightFooter a:hover {
+  text-decoration:underline;
+}
+
+.copyright {
+  width:1000px;
+  margin:120px auto 0 auto;
+  padding-bottom:20px;
+  color:#FDFEFE;
+  text-align: center
 }
