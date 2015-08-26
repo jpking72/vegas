@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'futura__condensed';
+    src: url('../fonts/futura_condensed-webfont.eot');
+    src: url('../fonts/futura_condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_condensed-webfont.woff') format('woff'),
+         url('../fonts/futura_condensed-webfont.ttf') format('truetype'),
+         url('../fonts/futura_condensed-webfont.svg#futura__condensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futuracondensed_medium';
+    src: url('../fonts/futura_condensed_medium-webfont.eot');
+    src: url('../fonts/futura_condensed_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_condensed_medium-webfont.woff') format('woff'),
+         url('../fonts/futura_condensed_medium-webfont.ttf') format('truetype'),
+         url('../fonts/futura_condensed_medium-webfont.svg#futuracondensed_medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_condensed_extra_boldRg';
+    src: url('../fonts/futura_condensed_extra_bold_regular-webfont.eot');
+    src: url('../fonts/futura_condensed_extra_bold_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_condensed_extra_bold_regular-webfont.woff') format('woff'),
+         url('../fonts/futura_condensed_extra_bold_regular-webfont.ttf') format('truetype'),
+         url('../fonts/futura_condensed_extra_bold_regular-webfont.svg#futura_condensed_extra_boldRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_extra_blk_cond';
+    src: url('../fonts/futura_extra_blk_cond-webfont.eot');
+    src: url('../fonts/futura_extra_blk_cond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_extra_blk_cond-webfont.woff') format('woff'),
+         url('../fonts/futura_extra_blk_cond-webfont.ttf') format('truetype'),
+         url('../fonts/futura_extra_blk_cond-webfont.svg#futura_xblkcn_btextra_black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cartogothic_stdregular';
+    src: url('../fonts/CartoGothicStd-Book-webfont.eot');
+    src: url('../fonts/CartoGothicStd-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CartoGothicStd-Book-webfont.woff') format('woff'),
+         url('../fonts/CartoGothicStd-Book-webfont.ttf') format('truetype'),
+         url('../fonts/CartoGothicStd-Book-webfont.svg#cartogothic_stdregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cartogothic_stdbold';
+    src: url('../fonts/CartoGothicStd-Bold-webfont.eot');
+    src: url('../fonts/CartoGothicStd-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CartoGothicStd-Bold-webfont.woff') format('woff'),
+         url('../fonts/CartoGothicStd-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/CartoGothicStd-Bold-webfont.svg#cartogothic_stdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cartogothic_stditalic';
+    src: url('../fonts/CartoGothicStd-Italic-webfont.eot');
+    src: url('../fonts/CartoGothicStd-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CartoGothicStd-Italic-webfont.woff') format('woff'),
+         url('../fonts/CartoGothicStd-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/CartoGothicStd-Italic-webfont.svg#cartogothic_stditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cartogothic_stdbold_italic';
+    src: url('../fonts/CartoGothicStd-BoldItalic-webfont.eot');
+    src: url('../fonts/CartoGothicStd-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CartoGothicStd-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/CartoGothicStd-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/CartoGothicStd-BoldItalic-webfont.svg#cartogothic_stdbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  width:100%;
+  font-family: "futura-pt",sans-serif;
+  font-style:italic;
+  margin:0;
+  padding:0;
+}
+
+.homePage {
+  width:100%;
+  height:100%;
+  margin:0 auto;
+}
+
+header {
+  width:100%;
+  height:100px;
+  background:#F3F2F2;
+}
+
+.headerContent {
+  width:1000px;
+  margin:0 auto;
+}
+
+.logo {
+  float:left;
+  width:320px;
+  height:38px;
+  margin-top:31px;
+}
+
+.navigation {
+  float:right;
+  width:680px;
+  margin-top:46px;
+  font-weight: 500
+}
+
+.navigation ul {
+  float:right;
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+.navigation li {
+  float:left;
+  margin-right: 52px
+}
+
+.navigation a {
+  text-decoration: none;
+  color:#FC2424;
+  font-size:18px;
+}
+
+.navigation a:hover {
+  text-decoration: underline
+}
+
+.boldLink {
+  font-weight:bold;
+}
+
+.main {
+  width:100%;
+  position:relative;
+}
+
+.contentArea {
+  position: absolute;
+  top:15%;
+  left:50%;
+  width:800px;
+  margin-left:-400px;
+  z-index: 10
+}
+
+.largeText {
+  font-size: 72px;
+  font-weight: 700;
+  font-style:normal;
+  color:#FEFBFB;
+  line-height: 100%
+}
+
+.smallText {
+  color:#FEFBFB;
+  font-size: 18px;
+}
+
+.opacityOverlay {
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background-color: rgba(0,0,0,0.4)
+}
+
+.learnButton {
+  width:265px;
+  height:58px;
+  background-color: #FFFFFF;
+  color:#050505;
+  font-size:40px;
+  margin: 40px auto 0 auto;
+  text-align: center;
+  padding-top:7px;
+  cursor:pointer;
+}
+
+.downArrow {
+  position:absolute;
+  left:50%;
+  margin-left:-41px;
+  bottom:2px;
+}
+
+.about {
+  width:1000px;
+  margin:50px auto;
+  line-height: 200%
+}
+
+.subscribe {
+  width:100%;
+  position:relative;
+}
+
+.subscribeText {
+  position: absolute;
+  bottom:2px;
+  left:50%;
+  width:800px;
+  margin-left:-400px;
+  font-size: 60px;
+  font-weight: 700;
+  font-style:normal;
+  color:#FEFBFB;
+  line-height: 100%;
+  z-index: 10
+}
