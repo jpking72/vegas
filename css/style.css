@@ -316,8 +316,21 @@ footer .rightFooter {
 
 .copyright {
   width:1000px;
-  margin:120px auto 0 auto;
+  margin:40px auto 0 auto;
   padding-bottom:20px;
   color:#FDFEFE;
   text-align: center
+}
+
+.memberForm {
+  width:1000px;
+  margin:0 auto;
+}
+
+.memberForm h3 {
+  font-size: 36px;
+}
+
+.memberForm td {
+  font-size: 24px;
 }

@@ -1,0 +1,43 @@
+diff --git a/css/style.css b/css/style.css
+index f54fc81..3efa355 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -316,8 +316,21 @@ footer .rightFooter {
+ 
+ .copyright {
+   width:1000px;
+-  margin:120px auto 0 auto;
++  margin:40px auto 0 auto;
+   padding-bottom:20px;
+   color:#FDFEFE;
+   text-align: center
++}
++
++.memberForm {
++  width:1000px;
++  margin:0 auto;
++}
++
++.memberForm h3 {
++  font-size: 36px;
++}
++
++.memberForm td {
++  font-size: 24px;
+ }
+\ No newline at end of file
+diff --git a/index.php b/index.php
+index 1dec6d0..bb396ec 100644
+--- a/index.php
++++ b/index.php
+@@ -48,8 +48,8 @@
+ 			<div class="contentArea">
+ 				<div class="largeText">Insider information from<br>across the industry</div>
+ 				<div class="smallText">
+-					<p>Unlike other newsletters, our primary source of income is generatied by playing the very same picks we publish  each week - 
+-					NOT from selling the picks for hundreds of dollars. That’s why  we offer our newsletter, with ALL of our NFL and college football
++					<p>Unlike other newsletters, our primary source of income is generatied by playing the very same picks we publish each week - 
++					NOT from selling the picks for hundreds of dollars. That's why  we offer our newsletter, with ALL of our NFL and college football
+ 					 picks, for <span class="boldLink">less than $6 a week!</span></p>
+ 				</div>
+ 			</div>
